@@ -1,0 +1,17 @@
+﻿SOLUTION,URL,CATEGORY,STRATEGY,FX,ASSET_CLASS,DATA_UP_TO,LAST_RUN,ALERT
+DC COMPACT,/heatmap,Multi,Rebalancing,CHF,Equities,3,2,1
+DC COMPACT 50,https://www.dufour-cockpit.ch,Multi,Rebalancing,CHF,Equities,3,2,1
+DC SWISS EUQITY,https://www.dufour-capital.ch,Multi,"<i class=""fa-solid fa-square""></i>",CHF,Equities,3,2,-3
+DC SLI STOCKS SWISS EQUITY,https://www.dufour-capital.ch,Multi,"<i class=""fa-solid fa-square""></i>",CHF,Equities,3,2,-5
+DC PROTECT,https://www.dufour-capital.ch,Multi,Mixed,CHF,Equities,3,2,1
+DC GROWTH,https://www.dufour-capital.ch,Multi,Mixed,CHF,Equities,3,2,1
+DC SLI STOCKS GROWTH,https://www.dufour-capital.ch,Multi,Momentum,CHF,Equities,3,2,1
+DC PROTECT DYNAMIC,https://www.dufour-capital.ch,Multi,Mixed,CHF,Equities,3,2,1
+DC UBS WORLD AMC,https://www.dufour-capital.ch,Multi,Mixed,CHF,Equities,3,2,1
+DC LEONTEQ AI,https://www.dufour-capital.ch,Multi,Mixed,CHF,Equities,3,2,1
+DC LEONTEQ NASDAQ AMC,https://www.dufour-capital.ch,Multi,Mixed,CHF,Equities,3,2,1
+BKB Swiss Equities Momentum Select,https://www.dufour-capital.ch,Multi,Mixed,CHF,Equities,3,2,1
+BKB Global Equities Momentum Select,https://www.dufour-capital.ch,Multi,Mixed,CHF,Equities,3,2,1
+BKB Gesamtlösung,https://www.dufour-capital.ch,Multi,Mixed,CHF,Equities,3,2,1
+DC STEIGEN 5 FROM S&P500,https://www.dufour-capital.ch,Multi,Mixed,USD,Equities,3,2,1
+DC STEIGEN 20 GLOBAL STOCKS,https://www.dufour-capital.ch,Multi,Mixed,USD,Equities,3,2,1

@@ -1,0 +1,21 @@
+
+.dash-spreadsheet-menu {
+margin: 1% 0 1% 0;
+justify-content: left;
+}
+
+
+.export {
+border-radius: 5px;
+border: 2px solid lightgrey;
+padding: 0 15px;
+font-type: sans-serif;
+background-color:white;
+transition:.75s;
+}
+
+.export:hover {
+color:white;
+box-shadow: 0px 1px 3px lightgrey;
+background-color: lightgrey;
+}
