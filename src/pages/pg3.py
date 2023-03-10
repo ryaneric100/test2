@@ -11,7 +11,7 @@ from  functions.positions import positions
 dash.register_page(__name__,
                    path='/portfolio1',
                    name='Portfolio1',
-                   title='Portfolio 1',
+                   title='Portfolio 11',
                    image='pg3.png',
                    description='Learn all about the heatmap.'
 )
