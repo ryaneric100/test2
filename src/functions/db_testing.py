@@ -8,6 +8,7 @@ Created on Mon Dec 26 16:33:16 2022
 import pandas as pd
 import pyodbc
 from sqlalchemy import create_engine
+import pymysql
 
   
 # needs the package: https://pypi.org/project/PyMySQL/    
