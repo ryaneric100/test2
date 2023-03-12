@@ -5,23 +5,32 @@ Created on Mon Dec 26 16:33:16 2022
 @author: DCHELD
 """
 from dash import  html
-from dash import dash_table, dcc
 import pandas as pd
 import dash_ag_grid as dag
+from sqlalchemy import create_engine
 
 
 def overview_table_ag(flag):
-        
+    
+    
         if flag == 1:
-            filename = 'overview.csv'
+            # needs the package: https://pypi.org/project/PyMySQL/    
+            cnx = create_engine('mysql+pymysql://dbmyetf:4sevilla%2A@myetf.ch/myetfch_') 
+            df = pd.read_sql('SELECT * FROM overview_table_cockpit_dash', cnx) #read the entire table
+            print(df)
+        
+        # filename = 'overview.csv'
         elif flag == 2:
             filename = 'overview_stocks.csv'
+            df = pd.read_csv(filename)
         elif flag == 3:
-         filename = 'overview_subptfs.csv'
+             filename = 'overview_subptfs.csv'
+             df = pd.read_csv(filename)
             
         
 
-        df = pd.read_csv(filename)
+        # df = pd.read_csv(filename)
+        
         df['PORTFOLIO'] = [create_link(url,solution) for url,solution in zip(df["URL"],df["PORTFOLIO"])]
         df.drop(['URL'], axis = 1, inplace = True)
     

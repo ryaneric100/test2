@@ -5,6 +5,41 @@ import dash_bootstrap_components as dbc
 app = dash.Dash(__name__, use_pages=True, external_stylesheets=[dbc.themes.DARKLY])  # COSMO  suppress_callback_exceptions=True
 server = app.server
 
+
+
+# items = [
+#     dbc.DropdownMenuItem("Item 1"),
+#     dbc.DropdownMenuItem("Item 2"),
+#     dbc.DropdownMenuItem("Item 3"),
+# ]
+
+# dropdowns = html.Div(
+#     [
+#         dbc.DropdownMenu(
+#             items, label="Primary", color="primary", className="m-1"
+#         ),
+#         dbc.DropdownMenu(
+#             items, label="Secondary", color="secondary", className="m-1"
+#         ),
+#         dbc.DropdownMenu(
+#             items, label="Success", color="success", className="m-1"
+#         ),
+#         dbc.DropdownMenu(
+#             items, label="Warning", color="warning", className="m-1"
+#         ),
+#         dbc.DropdownMenu(
+#             items, label="Danger", color="danger", className="m-1"
+#         ),
+#         dbc.DropdownMenu(items, label="Info", color="info", className="m-1"),
+#     ],
+#     style={"display": "flex", "flexWrap": "wrap"},
+# )
+
+
+
+
+
+
 sidebar = dbc.Nav(
             [
                 dbc.NavLink(
@@ -16,7 +51,7 @@ sidebar = dbc.Nav(
                 )
                 for page in dash.page_registry.values()
             ],
-            vertical=True,
+            vertical= True,
             pills=True,
             className="bg-light"
            
@@ -45,8 +80,10 @@ app.layout = dbc.Container([
 
     dbc.Row(
         [
+            
             dbc.Col(
                 [
+                    
                     html.Hr(),
                     html.Img(src='assets/logo.png'),
                     html.Hr(),
